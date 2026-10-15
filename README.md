@@ -23,6 +23,19 @@ The results page is `report/benchmark.html`. Open it in a browser; it needs no s
 | All 6 clips ready | 130.7 s | 13.0 s |
 | Cost per clip | $0.05 promo, $0.10 list | $0.07–0.20 (session-time billing) |
 
+**Step-matched run (15 Oct, evening).** MachGen's default H3 Turbo adapter is undisclosed, so it was
+pinned to LightX2V's 8-step adapter to match Reactor's H3 Reference Turbo, which most likely runs
+LightX2V's 8-step reference-to-video distillation (unconfirmed by Reactor):
+
+| Per clip | MachGen H3 Turbo, 8-step | Reactor H3 Reference Turbo |
+|---|---|---|
+| Generation | 3.32–3.94 s, median 3.79 s (reported) | 2.04–2.22 s, median 2.12 s (client-side) |
+| Seconds per step | 0.47 s | 0.27 s if 8 steps, 0.53 s if 4 steps |
+| Queue waits | 10 s, 11 s, 74 s | none |
+
+At 8 steps MachGen's GPU time rose 37% over its default (2.77 s), consistent with the default running
+about 6 steps. Whether Reactor's engine is faster per step depends on its undisclosed step count.
+
 Other findings, with charts, are in the report: MachGen queue behaviour under load, promo vs list
 pricing, an earlier FastH3 comparison, and Reactor's live models (LingBot World 2, Helios, SANA-Streaming).
 
@@ -57,6 +70,9 @@ provider). It checks the planned spend against `--budget` before submitting anyt
 ```bash
 # MiniMax H3 Turbo, 6 clips, one at a time (~$0.30 at MachGen's promo price)
 .venv/bin/python -m bench.run --suite minimax-h3-turbo-768p-5s --n 6 --providers machgen --concurrency 1 --budget 1
+
+# Same, pinned to LightX2V's 8-step adapter for a step-matched comparison
+.venv/bin/python -m bench.run --suite minimax-h3-turbo-8step-768p-5s --n 6 --providers machgen --concurrency 1 --budget 1
 
 # FLUX.2-dev images, 15 sequential then 12 with 4 in flight (~$0.10)
 .venv/bin/python -m bench.run --suite flux2-dev --n 15 --providers machgen --concurrency 1 --budget 1

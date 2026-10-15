@@ -75,6 +75,23 @@ SUITES = {
         "est_cost": {"machgen": 0.10, "fal": 0.25},
         "provider_defaults": "MachGen default turbo adapter",
     },
+    # Step-matched against Reactor's H3 Reference Turbo, which most likely runs LightX2V's 8-step
+    # distillation: pin MachGen to LightX2V's 8-step adapter instead of its undisclosed default.
+    "minimax-h3-turbo-8step-768p-5s": {
+        "kind": "video",
+        "machgen": {
+            "model": "MiniMax-H3-Turbo",
+            "task_type": "T2V",
+            "adapter": "lightx2v_fl2v_8step_v10_native",
+            "video_config": {"duration_secs": 5, "height": 768, "aspect_ratio": "16:9"},
+        },
+        "fal": {
+            "endpoint": "minimax/h3-max-turbo/text-to-video",
+            "args": {"duration": 5, "resolution": "768P", "aspect_ratio": "16:9", "enable_safety_checker": False},
+        },
+        "est_cost": {"machgen": 0.10, "fal": 0.25},
+        "provider_defaults": "MachGen adapter pinned to LightX2V 8-step",
+    },
     "ltx23-pro-1080p-6s": {
         "kind": "video",
         "machgen": {
