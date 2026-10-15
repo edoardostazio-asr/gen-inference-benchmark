@@ -1,0 +1,629 @@
+{
+ "run_id": "20261012T185150Z",
+ "model": "reactor/fast-h3",
+ "clips": 6,
+ "seconds_per_clip": 5.167,
+ "status_log": [
+  [
+   0.126,
+   "connecting"
+  ],
+  [
+   0.945,
+   "waiting"
+  ],
+  [
+   4.068,
+   "ready"
+  ],
+  [
+   41.58,
+   "disconnected"
+  ]
+ ],
+ "time_to_ready_s": 4.068066083011217,
+ "first_clip_built_s": 3.7656373340287246,
+ "first_clip_first_frame_s": 4.19658954202896,
+ "build_s_median": 4.074805562006077,
+ "build_s_min": 3.7656373340287246,
+ "build_s_max": 4.120489833003376,
+ "clips_built": 6,
+ "clips_failed": 0,
+ "realtime_factor": 1.2807104008378642,
+ "frames_received": 738,
+ "frame_gap_p95_ms": 45.77558295568451,
+ "clip_handoff_gap_s_median": 0.035320333030540496,
+ "billed_session_s": 37.511765374976676,
+ "est_cost_usd": 1.3129117881241839,
+ "cost_per_output_s": 0.042349260954912066,
+ "session_state": {
+  "clip_seconds_min": 5.167,
+  "clip_seconds_max": 14.375,
+  "generation_capacity": 20.0,
+  "playout_capacity": 10.0,
+  "seconds_sent": 25.83
+ },
+ "per_clip": [
+  {
+   "i": 0,
+   "prompt": "A red fox trotting through fresh snow in a birch forest at dawn, soft golden light",
+   "seed": 1000,
+   "t_enqueue": 4.315753415983636,
+   "t_queued": 4.437165083014406,
+   "frames_planned": 124.0,
+   "seconds": 5.167,
+   "t_generated": 8.08139075001236,
+   "t_started": 8.512342958012596,
+   "frames_seen": 121,
+   "t_finished": 14.024573250033427,
+   "end": "clip_finished",
+   "build_s": 3.7656373340287246,
+   "enqueue_to_built_s": 3.7656373340287246,
+   "enqueue_to_first_frame_s": 4.19658954202896
+  },
+  {
+   "i": 1,
+   "prompt": "A hot air balloon drifting over a lavender field in light rain, slow tilt up, cinematic",
+   "seed": 1001,
+   "t_enqueue": 4.437340874981601,
+   "t_queued": 4.584607375029009,
+   "frames_planned": 124.0,
+   "seconds": 5.167,
+   "t_generated": 12.153583416016772,
+   "t_started": 14.025030791002791,
+   "frames_seen": 123,
+   "t_finished": 19.41853137500584,
+   "end": "clip_finished",
+   "build_s": 4.072192666004412,
+   "enqueue_to_built_s": 7.716242541035172,
+   "enqueue_to_first_frame_s": 9.58768991602119
+  },
+  {
+   "i": 2,
+   "prompt": "A barista pouring latte art in a sunlit cafe, shallow depth of field, close-up",
+   "seed": 1002,
+   "t_enqueue": 4.584482291014865,
+   "t_queued": 4.708690750005189,
+   "frames_planned": 124.0,
+   "seconds": 5.167,
+   "t_generated": 16.270403957983945,
+   "t_started": 19.455561415990815,
+   "frames_seen": 124,
+   "t_finished": 25.220335541001987,
+   "end": "clip_finished",
+   "build_s": 4.116820541967172,
+   "enqueue_to_built_s": 11.68592166696908,
+   "enqueue_to_first_frame_s": 14.87107912497595
+  },
+  {
+   "i": 3,
+   "prompt": "A lighthouse on a rocky cliff during a storm, waves crashing, dramatic clouds",
+   "seed": 1003,
+   "t_enqueue": 4.708373208006378,
+   "t_queued": 4.830855750013143,
+   "frames_planned": 124.0,
+   "seconds": 5.167,
+   "t_generated": 20.347822415991686,
+   "t_started": 25.253757582977414,
+   "frames_seen": 123,
+   "t_finished": 30.666796499979682,
+   "end": "clip_finished",
+   "build_s": 4.077418458007742,
+   "enqueue_to_built_s": 15.639449207985308,
+   "enqueue_to_first_frame_s": 20.545384374971036
+  },
+  {
+   "i": 4,
+   "prompt": "A golden retriever puppy chasing bubbles in a backyard garden, slow motion",
+   "seed": 1004,
+   "t_enqueue": 4.830938083003275,
+   "t_queued": 4.956108874990605,
+   "frames_planned": 124.0,
+   "seconds": 5.167,
+   "t_generated": 24.402141250029672,
+   "t_started": 30.703783500008285,
+   "frames_seen": 124,
+   "t_finished": 35.83080170798348,
+   "end": "clip_finished",
+   "build_s": 4.054318834037986,
+   "enqueue_to_built_s": 19.571203167026397,
+   "enqueue_to_first_frame_s": 25.87284541700501
+  },
+  {
+   "i": 5,
+   "prompt": "A futuristic city street at night with neon signs reflected in puddles, light fog",
+   "seed": 1005,
+   "t_enqueue": 4.956204999994952,
+   "t_queued": 5.1073967079864815,
+   "frames_planned": 124.0,
+   "seconds": 5.167,
+   "t_generated": 28.522631083033048,
+   "t_started": 35.86612204101402,
+   "frames_seen": 123,
+   "t_finished": 40.996146791032515,
+   "end": "clip_finished",
+   "build_s": 4.120489833003376,
+   "enqueue_to_built_s": 23.566426083038095,
+   "enqueue_to_first_frame_s": 30.90991704101907
+  }
+ ],
+ "messages": [
+  [
+   4.194,
+   "clip_length_accepted",
+   {
+    "clip_seconds": 5.167,
+    "frames": 124.0
+   }
+  ],
+  [
+   4.315,
+   "autoplay_accepted",
+   {
+    "enabled": true
+   }
+  ],
+  [
+   4.437,
+   "clip_queued",
+   {
+    "clip": {
+     "clip_id": "4718fdee-408a-4368-a8bd-ac9c6abaf013",
+     "continue_from_clip_id": null,
+     "ending_from_clip_id": null,
+     "frames": 124.0,
+     "has_ending_frame": false,
+     "has_starting_frame": false,
+     "metadata": "job:0",
+     "prompt": "A red fox trotting through fresh snow in a birch forest at dawn, soft golden light",
+     "ready": false,
+     "seconds": 5.167,
+     "seed": 1000.0
+    }
+   }
+  ],
+  [
+   4.585,
+   "clip_queued",
+   {
+    "clip": {
+     "clip_id": "e8ce553a-4216-4bee-9c53-b0cccae1c184",
+     "continue_from_clip_id": null,
+     "ending_from_clip_id": null,
+     "frames": 124.0,
+     "has_ending_frame": false,
+     "has_starting_frame": false,
+     "metadata": "job:1",
+     "prompt": "A hot air balloon drifting over a lavender field in light rain, slow tilt up, cinematic",
+     "ready": false,
+     "seconds": 5.167,
+     "seed": 1001.0
+    }
+   }
+  ],
+  [
+   4.709,
+   "clip_queued",
+   {
+    "clip": {
+     "clip_id": "ef8c0edb-2f58-442c-a3ef-8696c9506441",
+     "continue_from_clip_id": null,
+     "ending_from_clip_id": null,
+     "frames": 124.0,
+     "has_ending_frame": false,
+     "has_starting_frame": false,
+     "metadata": "job:2",
+     "prompt": "A barista pouring latte art in a sunlit cafe, shallow depth of field, close-up",
+     "ready": false,
+     "seconds": 5.167,
+     "seed": 1002.0
+    }
+   }
+  ],
+  [
+   4.831,
+   "clip_queued",
+   {
+    "clip": {
+     "clip_id": "bc0db441-ed93-4bff-86be-c2f5390bd8ea",
+     "continue_from_clip_id": null,
+     "ending_from_clip_id": null,
+     "frames": 124.0,
+     "has_ending_frame": false,
+     "has_starting_frame": false,
+     "metadata": "job:3",
+     "prompt": "A lighthouse on a rocky cliff during a storm, waves crashing, dramatic clouds",
+     "ready": false,
+     "seconds": 5.167,
+     "seed": 1003.0
+    }
+   }
+  ],
+  [
+   4.956,
+   "clip_queued",
+   {
+    "clip": {
+     "clip_id": "f8851e8f-9613-4da7-9ab0-e53e21d62bf8",
+     "continue_from_clip_id": null,
+     "ending_from_clip_id": null,
+     "frames": 124.0,
+     "has_ending_frame": false,
+     "has_starting_frame": false,
+     "metadata": "job:4",
+     "prompt": "A golden retriever puppy chasing bubbles in a backyard garden, slow motion",
+     "ready": false,
+     "seconds": 5.167,
+     "seed": 1004.0
+    }
+   }
+  ],
+  [
+   5.107,
+   "clip_queued",
+   {
+    "clip": {
+     "clip_id": "676daa54-c71b-45ec-943b-3856b1648949",
+     "continue_from_clip_id": null,
+     "ending_from_clip_id": null,
+     "frames": 124.0,
+     "has_ending_frame": false,
+     "has_starting_frame": false,
+     "metadata": "job:5",
+     "prompt": "A futuristic city street at night with neon signs reflected in puddles, light fog",
+     "ready": false,
+     "seconds": 5.167,
+     "seed": 1005.0
+    }
+   }
+  ],
+  [
+   8.081,
+   "clip_generated",
+   {
+    "clip": {
+     "clip_id": "4718fdee-408a-4368-a8bd-ac9c6abaf013",
+     "continue_from_clip_id": null,
+     "ending_from_clip_id": null,
+     "frames": 124.0,
+     "has_ending_frame": false,
+     "has_starting_frame": false,
+     "metadata": "job:0",
+     "prompt": "A red fox trotting through fresh snow in a birch forest at dawn, soft golden light",
+     "ready": true,
+     "seconds": 5.167,
+     "seed": 1000.0
+    }
+   }
+  ],
+  [
+   8.512,
+   "clip_started",
+   {
+    "clip": {
+     "clip_id": "4718fdee-408a-4368-a8bd-ac9c6abaf013",
+     "continue_from_clip_id": null,
+     "ending_from_clip_id": null,
+     "frames": 124.0,
+     "has_ending_frame": false,
+     "has_starting_frame": false,
+     "metadata": "job:0",
+     "prompt": "A red fox trotting through fresh snow in a birch forest at dawn, soft golden light",
+     "ready": true,
+     "seconds": 5.167,
+     "seed": 1000.0
+    }
+   }
+  ],
+  [
+   12.154,
+   "clip_generated",
+   {
+    "clip": {
+     "clip_id": "e8ce553a-4216-4bee-9c53-b0cccae1c184",
+     "continue_from_clip_id": null,
+     "ending_from_clip_id": null,
+     "frames": 124.0,
+     "has_ending_frame": false,
+     "has_starting_frame": false,
+     "metadata": "job:1",
+     "prompt": "A hot air balloon drifting over a lavender field in light rain, slow tilt up, cinematic",
+     "ready": true,
+     "seconds": 5.167,
+     "seed": 1001.0
+    }
+   }
+  ],
+  [
+   14.025,
+   "clip_finished",
+   {
+    "clip": {
+     "clip_id": "4718fdee-408a-4368-a8bd-ac9c6abaf013",
+     "continue_from_clip_id": null,
+     "ending_from_clip_id": null,
+     "frames": 124.0,
+     "has_ending_frame": false,
+     "has_starting_frame": false,
+     "metadata": "job:0",
+     "prompt": "A red fox trotting through fresh snow in a birch forest at dawn, soft golden light",
+     "ready": true,
+     "seconds": 5.167,
+     "seed": 1000.0
+    },
+    "seconds_sent": 5.17
+   }
+  ],
+  [
+   14.025,
+   "clip_started",
+   {
+    "clip": {
+     "clip_id": "e8ce553a-4216-4bee-9c53-b0cccae1c184",
+     "continue_from_clip_id": null,
+     "ending_from_clip_id": null,
+     "frames": 124.0,
+     "has_ending_frame": false,
+     "has_starting_frame": false,
+     "metadata": "job:1",
+     "prompt": "A hot air balloon drifting over a lavender field in light rain, slow tilt up, cinematic",
+     "ready": true,
+     "seconds": 5.167,
+     "seed": 1001.0
+    }
+   }
+  ],
+  [
+   16.27,
+   "clip_generated",
+   {
+    "clip": {
+     "clip_id": "ef8c0edb-2f58-442c-a3ef-8696c9506441",
+     "continue_from_clip_id": null,
+     "ending_from_clip_id": null,
+     "frames": 124.0,
+     "has_ending_frame": false,
+     "has_starting_frame": false,
+     "metadata": "job:2",
+     "prompt": "A barista pouring latte art in a sunlit cafe, shallow depth of field, close-up",
+     "ready": true,
+     "seconds": 5.167,
+     "seed": 1002.0
+    }
+   }
+  ],
+  [
+   19.419,
+   "clip_finished",
+   {
+    "clip": {
+     "clip_id": "e8ce553a-4216-4bee-9c53-b0cccae1c184",
+     "continue_from_clip_id": null,
+     "ending_from_clip_id": null,
+     "frames": 124.0,
+     "has_ending_frame": false,
+     "has_starting_frame": false,
+     "metadata": "job:1",
+     "prompt": "A hot air balloon drifting over a lavender field in light rain, slow tilt up, cinematic",
+     "ready": true,
+     "seconds": 5.167,
+     "seed": 1001.0
+    },
+    "seconds_sent": 10.33
+   }
+  ],
+  [
+   19.456,
+   "clip_started",
+   {
+    "clip": {
+     "clip_id": "ef8c0edb-2f58-442c-a3ef-8696c9506441",
+     "continue_from_clip_id": null,
+     "ending_from_clip_id": null,
+     "frames": 124.0,
+     "has_ending_frame": false,
+     "has_starting_frame": false,
+     "metadata": "job:2",
+     "prompt": "A barista pouring latte art in a sunlit cafe, shallow depth of field, close-up",
+     "ready": true,
+     "seconds": 5.167,
+     "seed": 1002.0
+    }
+   }
+  ],
+  [
+   20.348,
+   "clip_generated",
+   {
+    "clip": {
+     "clip_id": "bc0db441-ed93-4bff-86be-c2f5390bd8ea",
+     "continue_from_clip_id": null,
+     "ending_from_clip_id": null,
+     "frames": 124.0,
+     "has_ending_frame": false,
+     "has_starting_frame": false,
+     "metadata": "job:3",
+     "prompt": "A lighthouse on a rocky cliff during a storm, waves crashing, dramatic clouds",
+     "ready": true,
+     "seconds": 5.167,
+     "seed": 1003.0
+    }
+   }
+  ],
+  [
+   24.402,
+   "clip_generated",
+   {
+    "clip": {
+     "clip_id": "f8851e8f-9613-4da7-9ab0-e53e21d62bf8",
+     "continue_from_clip_id": null,
+     "ending_from_clip_id": null,
+     "frames": 124.0,
+     "has_ending_frame": false,
+     "has_starting_frame": false,
+     "metadata": "job:4",
+     "prompt": "A golden retriever puppy chasing bubbles in a backyard garden, slow motion",
+     "ready": true,
+     "seconds": 5.167,
+     "seed": 1004.0
+    }
+   }
+  ],
+  [
+   25.22,
+   "clip_finished",
+   {
+    "clip": {
+     "clip_id": "ef8c0edb-2f58-442c-a3ef-8696c9506441",
+     "continue_from_clip_id": null,
+     "ending_from_clip_id": null,
+     "frames": 124.0,
+     "has_ending_frame": false,
+     "has_starting_frame": false,
+     "metadata": "job:2",
+     "prompt": "A barista pouring latte art in a sunlit cafe, shallow depth of field, close-up",
+     "ready": true,
+     "seconds": 5.167,
+     "seed": 1002.0
+    },
+    "seconds_sent": 15.5
+   }
+  ],
+  [
+   25.254,
+   "clip_started",
+   {
+    "clip": {
+     "clip_id": "bc0db441-ed93-4bff-86be-c2f5390bd8ea",
+     "continue_from_clip_id": null,
+     "ending_from_clip_id": null,
+     "frames": 124.0,
+     "has_ending_frame": false,
+     "has_starting_frame": false,
+     "metadata": "job:3",
+     "prompt": "A lighthouse on a rocky cliff during a storm, waves crashing, dramatic clouds",
+     "ready": true,
+     "seconds": 5.167,
+     "seed": 1003.0
+    }
+   }
+  ],
+  [
+   28.523,
+   "clip_generated",
+   {
+    "clip": {
+     "clip_id": "676daa54-c71b-45ec-943b-3856b1648949",
+     "continue_from_clip_id": null,
+     "ending_from_clip_id": null,
+     "frames": 124.0,
+     "has_ending_frame": false,
+     "has_starting_frame": false,
+     "metadata": "job:5",
+     "prompt": "A futuristic city street at night with neon signs reflected in puddles, light fog",
+     "ready": true,
+     "seconds": 5.167,
+     "seed": 1005.0
+    }
+   }
+  ],
+  [
+   30.667,
+   "clip_finished",
+   {
+    "clip": {
+     "clip_id": "bc0db441-ed93-4bff-86be-c2f5390bd8ea",
+     "continue_from_clip_id": null,
+     "ending_from_clip_id": null,
+     "frames": 124.0,
+     "has_ending_frame": false,
+     "has_starting_frame": false,
+     "metadata": "job:3",
+     "prompt": "A lighthouse on a rocky cliff during a storm, waves crashing, dramatic clouds",
+     "ready": true,
+     "seconds": 5.167,
+     "seed": 1003.0
+    },
+    "seconds_sent": 20.67
+   }
+  ],
+  [
+   30.704,
+   "clip_started",
+   {
+    "clip": {
+     "clip_id": "f8851e8f-9613-4da7-9ab0-e53e21d62bf8",
+     "continue_from_clip_id": null,
+     "ending_from_clip_id": null,
+     "frames": 124.0,
+     "has_ending_frame": false,
+     "has_starting_frame": false,
+     "metadata": "job:4",
+     "prompt": "A golden retriever puppy chasing bubbles in a backyard garden, slow motion",
+     "ready": true,
+     "seconds": 5.167,
+     "seed": 1004.0
+    }
+   }
+  ],
+  [
+   35.831,
+   "clip_finished",
+   {
+    "clip": {
+     "clip_id": "f8851e8f-9613-4da7-9ab0-e53e21d62bf8",
+     "continue_from_clip_id": null,
+     "ending_from_clip_id": null,
+     "frames": 124.0,
+     "has_ending_frame": false,
+     "has_starting_frame": false,
+     "metadata": "job:4",
+     "prompt": "A golden retriever puppy chasing bubbles in a backyard garden, slow motion",
+     "ready": true,
+     "seconds": 5.167,
+     "seed": 1004.0
+    },
+    "seconds_sent": 25.83
+   }
+  ],
+  [
+   35.866,
+   "clip_started",
+   {
+    "clip": {
+     "clip_id": "676daa54-c71b-45ec-943b-3856b1648949",
+     "continue_from_clip_id": null,
+     "ending_from_clip_id": null,
+     "frames": 124.0,
+     "has_ending_frame": false,
+     "has_starting_frame": false,
+     "metadata": "job:5",
+     "prompt": "A futuristic city street at night with neon signs reflected in puddles, light fog",
+     "ready": true,
+     "seconds": 5.167,
+     "seed": 1005.0
+    }
+   }
+  ],
+  [
+   40.996,
+   "clip_finished",
+   {
+    "clip": {
+     "clip_id": "676daa54-c71b-45ec-943b-3856b1648949",
+     "continue_from_clip_id": null,
+     "ending_from_clip_id": null,
+     "frames": 124.0,
+     "has_ending_frame": false,
+     "has_starting_frame": false,
+     "metadata": "job:5",
+     "prompt": "A futuristic city street at night with neon signs reflected in puddles, light fog",
+     "ready": true,
+     "seconds": 5.167,
+     "seed": 1005.0
+    },
+    "seconds_sent": 31.0
+   }
+  ]
+ ]
+}

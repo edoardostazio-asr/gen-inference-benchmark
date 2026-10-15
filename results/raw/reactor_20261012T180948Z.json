@@ -1,0 +1,513 @@
+{
+ "run_id": "20261012T180948Z",
+ "model": "reactor/helios",
+ "seconds": 30,
+ "status_log": [
+  [
+   0.697,
+   "connecting"
+  ],
+  [
+   1.275,
+   "waiting"
+  ],
+  [
+   4.513,
+   "ready"
+  ],
+  [
+   36.953,
+   "disconnected"
+  ]
+ ],
+ "time_to_ready_s": 4.513,
+ "first_frame_after_start_s": 1.9833539579994977,
+ "generation_started_after_start_s": 0.12503941595787182,
+ "frames": 558,
+ "resolution": "1280x768",
+ "steady_fps": 18.90844482116442,
+ "gap_p50_ms": 52.79999999999774,
+ "gap_p95_ms": 58.100000000000485,
+ "gap_p99_ms": 64.30000000000113,
+ "gap_max_ms": 120.3000000000003,
+ "stalls_over_250ms": 0,
+ "prompt_switch_ack_s": 1.4164917079615407,
+ "prompt_switch_visible_s": 3.1823631249717437,
+ "rtt_ms_median": 114.0,
+ "ice_candidate": "prflx",
+ "message_types": [
+  "chunk_complete",
+  "conditions_ready",
+  "generation_started",
+  "prompt_accepted",
+  "state"
+ ],
+ "stats": [
+  {
+   "t": 4.93,
+   "rtt_ms": 114.0,
+   "in_bps": null,
+   "candidate": "prflx"
+  },
+  {
+   "t": 6.93,
+   "rtt_ms": 114.0,
+   "in_bps": null,
+   "candidate": "prflx"
+  },
+  {
+   "t": 8.94,
+   "rtt_ms": null,
+   "in_bps": null,
+   "candidate": null
+  },
+  {
+   "t": 10.94,
+   "rtt_ms": 126.0,
+   "in_bps": 1816537.5755291844,
+   "candidate": "prflx"
+  },
+  {
+   "t": 12.94,
+   "rtt_ms": 113.0,
+   "in_bps": 2606978.8374612564,
+   "candidate": "prflx"
+  },
+  {
+   "t": 14.94,
+   "rtt_ms": 205.0,
+   "in_bps": 2990546.966297782,
+   "candidate": "prflx"
+  },
+  {
+   "t": 16.95,
+   "rtt_ms": 114.0,
+   "in_bps": 3489299.7449447745,
+   "candidate": "prflx"
+  },
+  {
+   "t": 18.95,
+   "rtt_ms": null,
+   "in_bps": null,
+   "candidate": null
+  },
+  {
+   "t": 22.37,
+   "rtt_ms": 125.0,
+   "in_bps": 4708028.478132728,
+   "candidate": "prflx"
+  },
+  {
+   "t": 24.37,
+   "rtt_ms": 132.0,
+   "in_bps": 6195813.36898898,
+   "candidate": "prflx"
+  },
+  {
+   "t": 26.37,
+   "rtt_ms": 132.0,
+   "in_bps": 7002234.579394349,
+   "candidate": "prflx"
+  },
+  {
+   "t": 28.37,
+   "rtt_ms": 114.0,
+   "in_bps": 8752012.178927012,
+   "candidate": "prflx"
+  },
+  {
+   "t": 30.37,
+   "rtt_ms": 114.0,
+   "in_bps": 9216942.454004906,
+   "candidate": "prflx"
+  },
+  {
+   "t": 32.38,
+   "rtt_ms": 114.0,
+   "in_bps": 10117433.029521052,
+   "candidate": "prflx"
+  },
+  {
+   "t": 34.38,
+   "rtt_ms": 157.0,
+   "in_bps": 9627754.275090989,
+   "candidate": "prflx"
+  }
+ ],
+ "messages": [
+  [
+   4.811,
+   "conditions_ready",
+   {
+    "data": {
+     "has_image": false,
+     "has_prompt": true
+    },
+    "type": "conditions_ready"
+   }
+  ],
+  [
+   4.812,
+   "state",
+   null
+  ],
+  [
+   4.812,
+   "prompt_accepted",
+   {
+    "data": {
+     "prompt": "A slow drone flight over a misty pine forest at sunrise, soft volumetric light"
+    },
+    "type": "prompt_accepted"
+   }
+  ],
+  [
+   4.932,
+   "state",
+   null
+  ],
+  [
+   4.937,
+   "generation_started",
+   {
+    "data": {
+     "chunk_index": 0.0,
+     "prompt": "A slow drone flight over a misty pine forest at sunrise, soft volumetric light"
+    },
+    "type": "generation_started"
+   }
+  ],
+  [
+   6.666,
+   "chunk_complete",
+   {
+    "data": {
+     "active_prompt": "A slow drone flight over a misty pine forest at sunrise, soft volumetric light",
+     "chunk_index": 0.0,
+     "frames_emitted": 33.0
+    },
+    "type": "chunk_complete"
+   }
+  ],
+  [
+   6.666,
+   "state",
+   null
+  ],
+  [
+   8.423,
+   "chunk_complete",
+   {
+    "data": {
+     "active_prompt": "A slow drone flight over a misty pine forest at sunrise, soft volumetric light",
+     "chunk_index": 1.0,
+     "frames_emitted": 33.0
+    },
+    "type": "chunk_complete"
+   }
+  ],
+  [
+   8.423,
+   "state",
+   null
+  ],
+  [
+   10.171,
+   "chunk_complete",
+   {
+    "data": {
+     "active_prompt": "A slow drone flight over a misty pine forest at sunrise, soft volumetric light",
+     "chunk_index": 2.0,
+     "frames_emitted": 33.0
+    },
+    "type": "chunk_complete"
+   }
+  ],
+  [
+   10.174,
+   "state",
+   null
+  ],
+  [
+   11.913,
+   "chunk_complete",
+   {
+    "data": {
+     "active_prompt": "A slow drone flight over a misty pine forest at sunrise, soft volumetric light",
+     "chunk_index": 3.0,
+     "frames_emitted": 33.0
+    },
+    "type": "chunk_complete"
+   }
+  ],
+  [
+   11.913,
+   "state",
+   null
+  ],
+  [
+   13.644,
+   "chunk_complete",
+   {
+    "data": {
+     "active_prompt": "A slow drone flight over a misty pine forest at sunrise, soft volumetric light",
+     "chunk_index": 4.0,
+     "frames_emitted": 33.0
+    },
+    "type": "chunk_complete"
+   }
+  ],
+  [
+   13.645,
+   "state",
+   null
+  ],
+  [
+   15.387,
+   "chunk_complete",
+   {
+    "data": {
+     "active_prompt": "A slow drone flight over a misty pine forest at sunrise, soft volumetric light",
+     "chunk_index": 5.0,
+     "frames_emitted": 33.0
+    },
+    "type": "chunk_complete"
+   }
+  ],
+  [
+   15.388,
+   "state",
+   null
+  ],
+  [
+   17.125,
+   "chunk_complete",
+   {
+    "data": {
+     "active_prompt": "A slow drone flight over a misty pine forest at sunrise, soft volumetric light",
+     "chunk_index": 6.0,
+     "frames_emitted": 33.0
+    },
+    "type": "chunk_complete"
+   }
+  ],
+  [
+   17.125,
+   "state",
+   null
+  ],
+  [
+   18.875,
+   "chunk_complete",
+   {
+    "data": {
+     "active_prompt": "A slow drone flight over a misty pine forest at sunrise, soft volumetric light",
+     "chunk_index": 7.0,
+     "frames_emitted": 33.0
+    },
+    "type": "chunk_complete"
+   }
+  ],
+  [
+   18.875,
+   "state",
+   null
+  ],
+  [
+   20.62,
+   "chunk_complete",
+   {
+    "data": {
+     "active_prompt": "A slow drone flight over a misty pine forest at sunrise, soft volumetric light",
+     "chunk_index": 8.0,
+     "frames_emitted": 33.0
+    },
+    "type": "chunk_complete"
+   }
+  ],
+  [
+   20.62,
+   "state",
+   null
+  ],
+  [
+   22.362,
+   "chunk_complete",
+   {
+    "data": {
+     "active_prompt": "A slow drone flight over a misty pine forest at sunrise, soft volumetric light",
+     "chunk_index": 9.0,
+     "frames_emitted": 33.0
+    },
+    "type": "chunk_complete"
+   }
+  ],
+  [
+   22.362,
+   "state",
+   null
+  ],
+  [
+   22.362,
+   "conditions_ready",
+   {
+    "data": {
+     "has_image": false,
+     "has_prompt": true
+    },
+    "type": "conditions_ready"
+   }
+  ],
+  [
+   22.365,
+   "state",
+   null
+  ],
+  [
+   22.365,
+   "prompt_accepted",
+   {
+    "data": {
+     "prompt": "A slow drone flight over a neon-lit cyberpunk city at night, rain and reflections"
+    },
+    "type": "prompt_accepted"
+   }
+  ],
+  [
+   24.131,
+   "chunk_complete",
+   {
+    "data": {
+     "active_prompt": "A slow drone flight over a neon-lit cyberpunk city at night, rain and reflections",
+     "chunk_index": 10.0,
+     "frames_emitted": 33.0
+    },
+    "type": "chunk_complete"
+   }
+  ],
+  [
+   24.131,
+   "state",
+   null
+  ],
+  [
+   25.875,
+   "chunk_complete",
+   {
+    "data": {
+     "active_prompt": "A slow drone flight over a neon-lit cyberpunk city at night, rain and reflections",
+     "chunk_index": 11.0,
+     "frames_emitted": 33.0
+    },
+    "type": "chunk_complete"
+   }
+  ],
+  [
+   25.875,
+   "state",
+   null
+  ],
+  [
+   27.62,
+   "chunk_complete",
+   {
+    "data": {
+     "active_prompt": "A slow drone flight over a neon-lit cyberpunk city at night, rain and reflections",
+     "chunk_index": 12.0,
+     "frames_emitted": 33.0
+    },
+    "type": "chunk_complete"
+   }
+  ],
+  [
+   27.621,
+   "state",
+   null
+  ],
+  [
+   29.367,
+   "chunk_complete",
+   {
+    "data": {
+     "active_prompt": "A slow drone flight over a neon-lit cyberpunk city at night, rain and reflections",
+     "chunk_index": 13.0,
+     "frames_emitted": 33.0
+    },
+    "type": "chunk_complete"
+   }
+  ],
+  [
+   29.367,
+   "state",
+   null
+  ],
+  [
+   31.11,
+   "chunk_complete",
+   {
+    "data": {
+     "active_prompt": "A slow drone flight over a neon-lit cyberpunk city at night, rain and reflections",
+     "chunk_index": 14.0,
+     "frames_emitted": 33.0
+    },
+    "type": "chunk_complete"
+   }
+  ],
+  [
+   31.11,
+   "state",
+   null
+  ],
+  [
+   32.845,
+   "chunk_complete",
+   {
+    "data": {
+     "active_prompt": "A slow drone flight over a neon-lit cyberpunk city at night, rain and reflections",
+     "chunk_index": 15.0,
+     "frames_emitted": 33.0
+    },
+    "type": "chunk_complete"
+   }
+  ],
+  [
+   32.845,
+   "state",
+   null
+  ],
+  [
+   34.587,
+   "chunk_complete",
+   {
+    "data": {
+     "active_prompt": "A slow drone flight over a neon-lit cyberpunk city at night, rain and reflections",
+     "chunk_index": 16.0,
+     "frames_emitted": 33.0
+    },
+    "type": "chunk_complete"
+   }
+  ],
+  [
+   34.587,
+   "state",
+   null
+  ],
+  [
+   36.344,
+   "chunk_complete",
+   {
+    "data": {
+     "active_prompt": "A slow drone flight over a neon-lit cyberpunk city at night, rain and reflections",
+     "chunk_index": 17.0,
+     "frames_emitted": 33.0
+    },
+    "type": "chunk_complete"
+   }
+  ],
+  [
+   36.344,
+   "state",
+   null
+  ]
+ ]
+}
